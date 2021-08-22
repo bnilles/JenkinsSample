@@ -1,3 +1,5 @@
+pipeline{
+agents any
 node {
     stage("checkout") {
         git 'https://github.com/bnilles/JenkinsSample.git'
@@ -14,4 +16,5 @@ node {
 }
        
     }
+}
 }
