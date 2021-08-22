@@ -10,7 +10,7 @@ public class SampleController {
 	@RequestMapping
 	public String hello() {
 		Random rand = new Random();
-		return "Hello with a random number : " + rand.nextInt()  ;
+		return "Hello with a single random number : " + rand.nextInt()  ;
 	}
 
 }
